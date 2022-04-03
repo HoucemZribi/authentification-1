@@ -16,7 +16,7 @@ const SignInScreen = () => {
   const [passoword, setPassword] = useState("");
   const { height } = useWindowDimensions();
   const navigation = useNavigation();
-  const baseUrl = "localhost:8080/api";
+  const baseUrl = "localhost:8090";
   // Passing configuration object to axios
   axios({
     method: "get",
