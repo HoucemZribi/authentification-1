@@ -63,6 +63,7 @@ const SignUpScreen = () => {
                 <Picker.Item label='Carte séjour' value='Carte séjour' />
             </Picker>
             <DatePicker
+
                 style={{ width: '100%' }}
                 date={date}
                 placeholder='select date'
@@ -70,10 +71,11 @@ const SignUpScreen = () => {
                 confirmBtnText='Confirm'
                 cancelBtnText='Cancel'
                 onDateChange={(d) => setDate(d)}
+
             />
 
             <CustomInput
-                placeholder="Email"
+                placeholder="emaill"
                 value={email}
                 setValue={setEmail}
             />
